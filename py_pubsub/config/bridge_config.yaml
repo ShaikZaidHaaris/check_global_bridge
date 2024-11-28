@@ -1,0 +1,10 @@
+bridge:
+  ros_version: 2
+  domains:
+    - 1  # Orin's domain ID
+    - 0  # Your PC's domain ID
+  topics:
+    - name: /topic
+      type: std_msgs/msg/String
+      direction: bidirectional  # Allow bidirectional communication between domains
+
