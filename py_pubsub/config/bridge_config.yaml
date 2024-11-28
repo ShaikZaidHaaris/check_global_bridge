@@ -2,6 +2,6 @@ name: my_bridge
 from_domain: 1
 to_domain: 0
 topics:
-  clock:
+  topic:
     type: std_msgs/msg/String
  
